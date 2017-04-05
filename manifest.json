@@ -1,0 +1,12 @@
+{
+  "name": "New Home Tab",
+  "description": "A replacement new tab for Chrome",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "home_icon.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "home.html"
+  }
+}
